@@ -1,0 +1,14 @@
+[
+	{
+		"command": "frappe.window.new",
+		"region": "menubar:file",
+		"when": { "activeApp": "erpnext" },
+		"commandPatch": { "title": "New ERPNext window" }
+	},
+	{
+		"command": "frappe.window.close",
+		"region": "menubar:file",
+		"when": { "activeApp": "erpnext" },
+		"removed": true
+	}
+]
