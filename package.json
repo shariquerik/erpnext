@@ -14,7 +14,9 @@
   "scripts": {
     "postinstall": "cd banking && yarn install",
     "dev": "cd banking && yarn dev",
-    "build": "cd banking && yarn build"
+    "build": "yarn build:banking && yarn build:os-applet",
+    "build:banking": "cd banking && yarn build",
+    "build:os-applet": "cd erpnext/os-applets/hello && yarn build"
   },
   "devDependencies": {},
   "dependencies": {
