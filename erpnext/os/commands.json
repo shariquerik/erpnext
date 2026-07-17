@@ -1,0 +1,10 @@
+[
+	{
+		"id": "erpnext.crm.sales-invoices",
+		"title": "Sales Invoices",
+		"handler": {
+			"kind": "navigate",
+			"surface": { "kind": "builtin", "view": "list", "doctype": "Sales Invoice", "appId": "erpnext" }
+		}
+	}
+]

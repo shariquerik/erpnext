@@ -1,14 +1,19 @@
 [
 	{
 		"command": "frappe.window.new",
-		"region": "menubar:file",
+		"region": "menubar:window",
 		"when": { "activeApp": "erpnext" },
 		"commandPatch": { "title": "New ERPNext window" }
 	},
 	{
 		"command": "frappe.window.close",
-		"region": "menubar:file",
+		"region": "menubar:window",
 		"when": { "activeApp": "erpnext" },
 		"removed": true
+	},
+	{
+		"command": "erpnext.crm.sales-invoices",
+		"region": "menubar:app:crm:erpnext-links",
+		"when": { "activeApp": "crm" }
 	}
 ]
